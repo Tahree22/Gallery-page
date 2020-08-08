@@ -5,7 +5,7 @@
  These are some of the problems I ran into while building this page and the solutions I came up with.
 
  The navbar was built using bootstrap. I ran into some problem changing the color of the navbar since it was built with bootstrap. To solve this problem, I created a custom class `navbar-custom` and modified it in my style.css to change the color to a color of my choice.
- After changing the background color, the next step was to fix the readability of the navbar text by changing the text theme from dark to light. Bootstrap navbar comes with either a `navbar-light` or `navbar-dark` representing the text theme which can be set depending on the navbar background. Because of the background color I chose, I changed my navbar text to `navbar-dark` to make my lists readable.
+ After changing the background color, the next step was to fix the readability of the navbar text by changing the text theme from dark to light. Bootstrap navbar comes with either a `navbar-light` or `navbar-dark` representing the text theme which can be set depending on the navbar background. Because of the background color I chose, I changed my navbar text to `navbar-light` to make my lists readable.
 
  I needed a way to upload my picture with captions and small texts for each, so I used the `<figure>` element to display my pictures on the gallery page. This allowed me to add captions to my pictures and include small description paragraph for the pictures. I used `<figcaption>` to caption the images.
 
