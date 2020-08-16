@@ -2,7 +2,7 @@ body{
   background-color:#F3DBCF;
 }
 
-.container{
+.main{
   display: flex;
   flex-direction: column;
 }
